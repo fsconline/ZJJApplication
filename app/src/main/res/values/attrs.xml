@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomTabBar">
+        <!--BottomTabBar的整体背景-->
+        <attr name="tab_bar_background" format="color" />
+        <!--图片宽度-->
+        <attr name="tab_img_width" format="dimension" />
+        <!--图片高度-->
+        <attr name="tab_img_height" format="dimension" />
+        <!--文字尺寸-->
+        <attr name="tab_font_size" format="dimension" />
+        <!--上边距-->
+        <attr name="tab_padding_top" format="dimension" />
+        <!--图片文字间隔-->
+        <attr name="tab_img_font_padding" format="dimension" />
+        <!--下边距-->
+        <attr name="tab_padding_bottom" format="dimension" />
+        <!--是否显示分割线-->
+        <attr name="tab_isshow_divider" format="boolean" />
+        <!--分割线高度-->
+        <attr name="tab_divider_height" format="dimension" />
+        <!--分割线背景-->
+        <attr name="tab_divider_background" format="color" />
+        <!--选中的颜色-->
+        <attr name="tab_selected_color" format="color" />
+        <!--未选中的颜色-->
+        <attr name="tab_unselected_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="headerBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="mode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Search_View">
+        <attr name="textSizeSearch" format="dimension"  />
+        <attr name="textColorSearch" format="color" />
+        <attr name="textHintSearch" format="string" />
+        <attr name="searchBlockHeight" format="integer" />
+        <attr name="searchBlockColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="PayRidioButton">
+        <attr name="rid_btn_title" format="reference|string" />
+        <attr name="rid_btn_logo" format="reference|color" />
+        <attr name="rid_btn_desc" format="reference|string" />
+        <attr name="rid_btn_checked" format="boolean" />
+        <attr name="rid_btn_radio" format="reference" />
+    </declare-styleable>
+
+    <!-- Standard orientation constant. -->
+    <attr name="orientation">
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0" />
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1" />
+    </attr>
+
+    <declare-styleable name="PayRidioGroup">
+        <!-- The id of the child radio button that should be checked by default
+             within this radio group. -->
+        <attr name="checkedButton" format="integer" />
+        <!-- Should the radio group be a column or a row?  Use "horizontal"
+             for a row, "vertical" for a column.  The default is
+             vertical. -->
+        <attr name="orientation" />
+    </declare-styleable>
+
+
+
+    <!--二维码扫描
+    corner_color 边角颜色，
+    scanner_color 扫描线颜色
+    possible_result_color 扫描点颜色
+    frame_color 扫描框边线颜色
+    mask_color 模糊区域颜色
+    label_text  框上方提示
+-->
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--顶部导航栏-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topbarly"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_title_top"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_top_title_fsc"
+        android:weightSum="1">
+
+        <!--android:background="@color/colorPrimary"-->
+        <hawk.com.zjjapplication.view.ButtomBtn
+            android:id="@+id/bomBtnBack"
+            android:layout_width="@dimen/h_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.17"
+            android:gravity="center">
+        </hawk.com.zjjapplication.view.ButtomBtn>
+
+        <LinearLayout
+            android:layout_width="@dimen/h_0dp"
+            android:layout_weight="0.66"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_search"
+                android:layout_width="@dimen/h_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ll_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/str_title"
+                    android:textSize="@dimen/size_topbar_fount"
+                    android:textColor="@color/font_title_top" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <hawk.com.zjjapplication.view.ButtomBtn
+            android:id="@+id/bomBtnMsg"
+            android:layout_width="@dimen/h_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.17">
+        </hawk.com.zjjapplication.view.ButtomBtn>
+    </LinearLayout>
+    <!--<include-->
+        <!--layout="@layout/pub_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/h_title_line">-->
+    <!--</include>-->
+
+</LinearLayout>

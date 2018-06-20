@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include
+        android:id="@+id/includeTop"
+        layout="@layout/element_title_top"></include>
+
+    <!--content-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/h_50dp"
+            android:gravity="start"
+            android:paddingLeft="@dimen/paddingl_msgsetting_item_text"
+            android:text="您好！"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_lable_font_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/h_10dp"
+            android:paddingLeft="@dimen/paddingl_msgsetting_item_text"
+            android:text="欢迎登陆 移动办公APP"
+            android:textColor="@color/color_c5c5c5"
+            android:textSize="@dimen/size_lable_font_16" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_40dp"
+        android:layout_marginTop="@dimen/h_40dp"
+   >
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/LoginET"
+            android:hint="账户"
+            android:paddingLeft="15dp"
+            android:textSize="@dimen/fs_16sp"
+            android:textColor="@color/color_ff8000"
+            android:textColorHint="@color/color_c9c9c9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_40dp"
+        android:layout_marginTop="1dp"
+      >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/LoginET"
+            android:hint="登录密码"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textSize="@dimen/fs_16sp"
+            android:textColor="@color/color_ff8000"
+            android:textColorHint="@color/color_c9c9c9" />
+
+        <CheckBox
+            android:checked="false"
+            android:id="@+id/cbDisplayPassword"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/check_password_open_off"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/w_15dp"
+        android:layout_marginRight="@dimen/w_15dp"
+        android:layout_marginTop="@dimen/h_20dp"
+        android:background="@drawable/bg_btn_shape_fsc"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fs_16sp" />
+
+
+
+
+
+</LinearLayout>

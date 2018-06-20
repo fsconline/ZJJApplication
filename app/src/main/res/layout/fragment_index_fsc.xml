@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--首页-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include
+        android:id="@+id/includeTop"
+        layout="@layout/element_title_top"></include>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab"
+        style="@style/MyCustomTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top_title_fsc"
+        app:tabMode="fixed" />
+
+    <include layout="@layout/element_divier"></include>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

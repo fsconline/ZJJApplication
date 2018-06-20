@@ -1,0 +1,101 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.AppTheme" type="text/css"><!-- Customize your theme here. --></style>
+    <!-- Base application theme. -->
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" type="text/css">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme" parent="AppTheme.Base">-->
+    <!--</style>-->
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorPrimaryDark</item>-->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+        <!--&lt;!&ndash;该属性决定了app的文本颜色&ndash;&gt;-->
+        <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+
+    <!--</style>-->
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#C2EDFE</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabTextColor">#C4EAFD</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabSelectedTextColor">#fff</item>
+    </style>
+
+
+    
+    <!--登陆页EditText-->
+    <style name="LoginET" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@android:color/holo_orange_dark</item>
+    </style>
+    
+    
+    <!-- 轮播图. -->
+    <declare-styleable name="FlyBanner">
+        <attr name="points_visibility" format="boolean" />
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="points_container_background" format="reference|color" />
+    </declare-styleable>
+
+    <!-- Application theme. -->
+    <style name="AppTheme_noTitle" parent="android:Theme.Holo.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="dialogProgressGreenStyle">
+        <item name="android:indeterminateDrawable">@drawable/loadinganim</item>
+        <item name="android:minWidth">15dp</item>
+        <item name="android:maxWidth">15dp</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+    </style>
+
+    <style name="dialogProgressGrayStyle">
+        <item name="android:indeterminateDrawable">@drawable/anim_dialog_progress_gray</item>
+        <item name="android:minWidth">15dp</item>
+        <item name="android:maxWidth">15dp</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:maxHeight">15dp</item>
+    </style>
+
+    <!--引导页-->
+    <style name="AppSplash" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/loading</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--待办事项看板-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.fragment.OneFragment">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="3"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:gravity="center"
+        />
+
+</FrameLayout>

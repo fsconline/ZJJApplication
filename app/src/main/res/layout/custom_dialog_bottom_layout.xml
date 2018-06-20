@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:huimeiCustom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle_gray_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="115dp"
+        android:background="@drawable/circle_gray_bg">
+
+        <TextView
+            android:id="@+id/custom_bottom_dialog_layout_title_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/custom_bottom_dialog_layout_message_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_bottom_dialog_layout_title_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:lineSpacingExtra="5dp"
+            android:maxLines="2"
+            android:textColor="#666666"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <!--<com.yjlc.view.DividingLineView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--huimeiCustom:isDrawShadow="false"-->
+        <!--huimeiCustom:lineColor="#d5d5d5"-->
+        <!--huimeiCustom:lineThickness="0.5dp"-->
+        <!--huimeiCustom:orientation="horizontal" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="#f9f9f9"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/custom_bottom_dialog_layout_left_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/type_btn_gray_bg"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/custom_bottom_dialog_layout_right_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/type_btn_gray_bg"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

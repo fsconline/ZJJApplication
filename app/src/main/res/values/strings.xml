@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ZJJApplication</string>
+    <string name="app_channel">1</string>
+
+    <string name="str_title">质监局移动应用</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="update_fail">安装失败</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+
+    <string name="get_more_data">获取更多数据</string>
+    <string name="get_data_ing">数据获取中</string>
+
+
+    <string name="str_logbtn_name">点击登录</string>
+
+
+    <string name="action_voice_rec">action voice rec</string>
+    <string name="action_location">action location</string>
+    <string name="action_taxi">action taxi</string>
+    <string name="action_change_colors">change style</string>
+
+</resources>

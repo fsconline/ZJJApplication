@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/progress_dialog_gray_1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_dialog_gray_12"
+        android:duration="100" />
+</animation-list>

@@ -1,0 +1,155 @@
+<resources>
+
+    <!--登录页-->
+    <dimen name="size_lable_font_20">20sp</dimen>
+    <dimen name="size_lable_font_16">16sp</dimen>
+
+    <dimen name="search_view_inset">5dp</dimen>
+
+    <!--标题栏-->
+    <!--高度-->
+    <dimen name="h_title_top">44dp</dimen>
+    <!--边框线高-->
+    <dimen name="h_title_line">1dp</dimen>
+
+    <!--边线默认粗细-->
+    <dimen name="h_line_default">1dp</dimen>
+
+    <!--置顶消息msg_overhead.xml-->
+    <!--置顶消息行高-->
+    <dimen name="h_msg_overhead">50dp</dimen>
+    <!--置顶消息图片尺寸-->
+    <dimen name="w_msg_overhead_img">30dp</dimen>
+    <dimen name="padding_msg_overhead_img">10dp</dimen>
+    <!--置顶消息内容尺寸-->
+    <dimen name="padl_msg_overhead">10dp</dimen>
+    <dimen name="padb_msg_overhead">5dp</dimen>
+    <dimen name="mart_msg_overhead_fount">5dp</dimen>
+    <dimen name="marl_msg_overhead_text">10dp</dimen>
+    <dimen name="size_msg_overhead_fount">13sp</dimen>
+
+    <!--分割线element_divier-->
+    <dimen name="h_default_divier">10dp</dimen>
+
+    <!--普通消息msg_rv_item_normal.xml-->
+    <dimen name="h_msg_item">50dp</dimen>
+    <dimen name="padding_msg_item">1dp</dimen>
+    <dimen name="padding_msg_img">10dp</dimen>
+    <dimen name="mart_msg_item">5dp</dimen>
+    <dimen name="marl_msg_item">10dp</dimen>
+    <dimen name="w_msg_item_img">30dp</dimen>
+    <dimen name="size_msg_item_fount">13sp</dimen>
+
+    <!--缴费消息列表message_adapter_laoyout.xml-->
+    <dimen name="h_msg_adapter_item">50dp</dimen>
+    <dimen name="size_msg_date_font">13sp</dimen>
+    <dimen name="size_msg_note_font">10sp</dimen>
+
+    <!--导航按钮-->
+    <dimen name="padding_navigation_btn">3dp</dimen>
+    <!--导航按钮图片尺寸element_navigation_btn.xml-->
+    <dimen name="w_navigation_btn_img">40dp</dimen>
+    <dimen name="h_navigation_btn_img">40dp</dimen>
+    <!--导航按钮字体-->
+    <dimen name="mart_navigation_btn_fount">8dp</dimen>
+    <dimen name="size_navigation_btn_fount">14dp</dimen>
+    <!--导航菜单栏element_gridbtn_menu.xml-->
+    <dimen name="h_navigation_menu">80dp</dimen>
+
+    <!--底部导航栏px-->
+    <dimen name="w_footbar_img">55px</dimen>
+    <dimen name="size_footbar_fount">5sp</dimen>
+    <dimen name="martop_footbar">2px</dimen>
+    <dimen name="marbottom_footbar">5px</dimen>
+    <dimen name="marmiddle_footbar_fount">3px</dimen>
+
+    <!--顶部导航栏-->
+    <dimen name="w_topbar">20dp</dimen>
+    <!--字体大小element_title_top.xml-->
+    <dimen name="size_topbar_fount">18sp</dimen>
+
+
+    <!--我要缴费页面fragment_dues.xml-->
+    <dimen name="marl_dues_item_line">15dp</dimen>
+    <!--条目高度-->
+    <dimen name="h_dues_item">40dp</dimen>
+    <!--字体大小-->
+    <dimen name="size_dues_item_fount">14sp</dimen>
+
+    <!--按钮默认圆角-->
+    <dimen name="shape_btn_radius">15dp</dimen>
+
+    <!--我的界面fragment_my.xml-->
+    <!--登录用户区域高度-->
+    <dimen name="h_my_logger_area">200dp</dimen>
+    <!--登录用户区域按钮高度-->
+    <dimen name="h_my_logger_btn">30dp</dimen>
+    <!--登录用户区域按钮字体-->
+    <dimen name="size_my_logger_btnfont">14sp</dimen>
+    <!--菜单高度-->
+    <dimen name="h_my_item">50dp</dimen>
+    <!--菜单图标偏移量-->
+    <dimen name="marl_my_item_img">15dp</dimen>
+    <dimen name="marr_my_item_img">15dp</dimen>
+    <!--菜单文字偏移量-->
+    <dimen name="paddingl_my_item_text">50dp</dimen>
+    <!--菜单字体大小-->
+    <dimen name="size_my_item_text">16sp</dimen>
+
+    <!--消息设置activity_msg_setting.xml-->
+    <dimen name="h_msgsetting_item">45dp</dimen>
+    <dimen name="paddingl_msgsetting_item_text">15dp</dimen>
+    <dimen name="size_msgsetting_item_text">16sp</dimen>
+    <dimen name="paddingr_msgsetting_item_img">10dp</dimen>
+
+    <!--用户设置activity_user_setting.xml-->
+    <dimen name="h_usersetting_item">45dp</dimen>
+    <dimen name="paddingl_usersetting_item_text">15dp</dimen>
+    <dimen name="size_usersetting_item_text">16sp</dimen>
+    <dimen name="marr_usersetting_item_img">15dp</dimen>
+    <!--按钮行高-->
+    <dimen name="h_usersetting_line_btn">80dp</dimen>
+    <!--按钮高度-->
+    <dimen name="h_usersetting_btn">40dp</dimen>
+    <!--按钮左右偏移量-->
+    <dimen name="marl_usersetting_btn">50dp</dimen>
+    <!--按钮字体大小-->
+    <dimen name="size_usersetting_btn_font">16sp</dimen>
+
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+
+
+    <dimen name="h_0dp">0dp</dimen>
+    <dimen name="h_2dp">2dp</dimen>
+    <dimen name="h_5dp">5dp</dimen>
+    <dimen name="h_10dp">10dp</dimen>
+    <dimen name="h_20dp">20dp</dimen>
+    <dimen name="h_30dp">30dp</dimen>
+    <dimen name="h_40dp">40dp</dimen>
+    <dimen name="h_50dp">50dp</dimen>
+    <dimen name="h_80dp">80dp</dimen>
+    <dimen name="h_90dp">80dp</dimen>
+    <dimen name="h_100dp">100dp</dimen>
+
+    <dimen name="w_15dp">15dp</dimen>
+    <dimen name="w_25dp">25dp</dimen>
+
+    <dimen name="fs_12sp">12sp</dimen>
+    <dimen name="fs_14sp">14sp</dimen>
+    <dimen name="fs_16sp">16sp</dimen>
+
+
+
+
+    <dimen name="line_default_w">1px</dimen>
+    <dimen name="line_default_h">1px</dimen>
+
+    <dimen name="line_h_1px">1px</dimen>
+    <dimen name="line_h_2px">2px</dimen>
+    <dimen name="line_h_3px">3px</dimen>
+
+
+</resources>

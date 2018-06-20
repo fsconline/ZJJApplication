@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			<!--mui.init();-->
+		</script>
+		<h1 class="mui-title">下载管理</h1>
+		<script type="text/javascript"  charset="utf-8">
+
+		function  showdata(arg1,arg2,arg3){
+
+		var billtype = arg1;
+				var billid = arg2;
+		var ischeck = arg3;
+
+
+ <!--alert(document.getElementById("a").value );-->
+
+ 	document.getElementById("a").innerHTML ="ischeck111";
+    	document.getElementById("s").innerHTML ="billtype222";
+      	document.getElementById("d").innerHTML ="billid333";
+
+		}
+
+
+		function MyBodyClick(){
+
+		console.log("hello world!");
+
+		}
+
+
+		function btnAuditClick(){
+
+		console.log("hello btnAuditClick（）");
+
+
+
+		}
+
+
+
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-content mui-content-padded">
+			<button type="button" id="btnDownload" class="mui-btn mui-btn-blue mui-btn-block" onclick="MyBodyClick()">测试</button>
+			<div id = "test"></div>
+			<ul id="downloadlist"></ul>
+
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>是否待执行</label>
+					<label type="text" id = "a" class="mui-input-clear"  placeholder=""></label>
+				</div>
+				<div class="mui-input-row">
+					<label>单据类型</label>
+					<label type="text" id = "s" class="mui-input-clear"  placeholder=""></label>
+				</div>
+				<div class="mui-input-row">
+					<label>单据id</label>
+					<label type="text" id = "d" class="mui-input-clear" placeholder=""></label>
+				</div>
+			</form>
+
+			<button type="button" id="btnAudit" class="mui-btn mui-btn-blue mui-btn-block" onclick="btnAuditClick()">审批提交</button>
+
+
+		</div>
+
+
+</html>
